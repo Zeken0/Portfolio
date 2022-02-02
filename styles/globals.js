@@ -3,8 +3,9 @@ import media from "styled-media-query";
 
 const GlobalStyle = createGlobalStyle`
 :root {
-    --font-body: PT Sans, Helvetica Neue, sans-serif;
-    --font-headings: Rokurou, Arial, serif;
+    --font-body:  'Montserrat', sans-serif;
+    --font-paragraph: 'PT Serif', serif;
+    --font-skills: 'Source Sans Pro', sans-serif;
 
     /* FONT SIZES */
     --font-size-base: 16px;
@@ -101,6 +102,8 @@ const GlobalStyle = createGlobalStyle`
   html,
   body {
     height: 100%;
+    paddding:0;
+    margin:0;
   }
   
   *,
