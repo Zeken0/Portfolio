@@ -33,19 +33,21 @@ const GlobalStyle = createGlobalStyle`
     --size-jumbo: 182px;
 
     /* COLORS */
-    --color-primary: #384531;
-    --color-secondary: #dd6031;
-    --color-tertiary: #4281a4;
-    --color-quaternary: #dadada;
+    --color-primary: #c83cb9;
+    --color-secondary: #9A2CA0;
+    --color-tertiary: #f5f5f5;
+    --color-quaternary: #f1f1f1;
+    --color-quinary: #858686;
+    --color-senary: #6c6c6c;
     --color-white: #fff;
-    --color-black: #282828;
+    --color-black: #080707;
 
     --c-action: var(--color-secondary);
     --c-danger: rgb(190, 47, 47);
     --c-success: var(--color-primary);
     --c-info: var(--color-tertiary);
-    --c-bg: var(--color-primary);
-    --c-text: var(--color-black);
+    --c-skills-bg: var(--color-tertiary);
+    --c-paragraphs: var(--color-tertiary);
     --c-text--inverse: var(--color-white);
     --c-disabled: var(--color-quaternary);
 
