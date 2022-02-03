@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+  flex: 0 0 70px;
+  background: whitesmoke;
+  font-family: var(--font-body);
+  color: var(--color-white);
+}

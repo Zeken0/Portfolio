@@ -106,6 +106,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     paddding:0;
     margin:0;
+    scroll-behavior: smooth;
   }
   
   *,
