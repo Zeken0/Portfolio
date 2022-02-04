@@ -1,12 +1,7 @@
-import styled from "styled-components";
+import "/_repos/portfolio/styles/css/Body.module.css";
 
-const Body = styled.div`
-  width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  background: green;
-  flex-direction: column;
-  font-family: --font-body;
-`;
+function Body() {
+  return <div className="container"></div>;
+}
 
 export default Body;

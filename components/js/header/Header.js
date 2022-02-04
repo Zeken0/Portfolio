@@ -1,4 +1,4 @@
-import "/_repos/portfolio/styles/css/Header.css";
+import "/_repos/portfolio/styles/css/Header.module.css";
 import logo from "/_repos/portfolio/components/images/logo.jpg";
 import Image from "next/image";
 

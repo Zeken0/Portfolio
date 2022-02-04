@@ -1,3 +1,4 @@
+import "/_repos/portfolio/styles/css/Footer.module.css";
 import Image from "next/image";
 import logo from "/_repos/portfolio/components/images/logo.jpg";
 
