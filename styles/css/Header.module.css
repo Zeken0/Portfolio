@@ -4,16 +4,22 @@
   justify-content: space-between;
   align-items: center;
   flex: 0 0 70px;
-  background: black;
+  background: var(--color-black);
   font-family: var(--font-body);
   color: var(--color-white);
-
+  opacity: 95%;
+  position: fixed;
   padding: 0 4rem;
   z-index: var(--z-sky);
+  text-decoration: none;
 }
 
 .header_logo {
-  width: 10px !important;
+  width: 70px;
+}
+
+.header_toggleBtn {
+  display: none;
 }
 
 .header_actions {
@@ -23,4 +29,5 @@
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-decoration: none;
 }

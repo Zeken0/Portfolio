@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   color: var(--color-white);
-  background: black;
+  background: var(--color-black);
   row-gap: 3rem;
 }
 

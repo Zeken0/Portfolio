@@ -116,7 +116,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a {
-    color: var(--c-action);
+    color: var(--color-white);
   }
   
   .my-element {

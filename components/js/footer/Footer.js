@@ -5,7 +5,9 @@ import logo from "/_repos/portfolio/components/images/logo.jpg";
 function Footer() {
   return (
     <section className={styles.footer}>
-      <Image className={styles.footer_logo} src={logo} alt="logo" />
+      <div className={styles.footer_logo}>
+        <Image src={logo} alt="logo" />
+      </div>
       <div>
         <ul className={styles.footer_actions}>
           <li>GITHUB</li>

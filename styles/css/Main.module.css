@@ -9,4 +9,23 @@
   min-height: 105vh;
   background-image: url("/components/images/hero-bg.jpg");
   background-size: cover;
+  background-color: #3333;
+}
+
+.main_about {
+  width: 100%;
+  background-color: var(--color-white);
+  min-height: 100vh;
+}
+
+.main_work {
+  width: 100%;
+  background-color: var(--color-quaternary);
+  min-height: 100vh;
+}
+
+.main_contact {
+  width: 100%;
+  background-color: var(--color-black);
+  min-height: 100vh;
 }

@@ -6,10 +6,10 @@ import styles from "../../../styles/css/Main.module.css";
 function Main() {
   return (
     <section className={styles.main}>
-      <section className={styles.main_home}></section>
-      <section className="main_about">about</section>
-      <section className="main_works">work</section>
-      <section className="main_contact">contact</section>
+      <div className={styles.main_home}>home</div>
+      <div className={styles.main_about}>about</div>
+      <div className={styles.main_work}>work</div>
+      <div className={styles.main_contact}>contact</div>
     </section>
   );
 }
