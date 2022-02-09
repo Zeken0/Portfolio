@@ -1,7 +1,7 @@
-import "/_repos/portfolio/styles/css/Body.module.css";
+import styles from "../../../styles/css/Body.module.css";
 
-function Body() {
-  return <div className="container"></div>;
+function Body({ children }) {
+  return <div className={styles.body}>{children}</div>;
 }
 
 export default Body;

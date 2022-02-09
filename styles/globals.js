@@ -103,7 +103,7 @@ const GlobalStyle = createGlobalStyle`
   
   html,
   body {
-    height: 100%;
+    text-decoration: none;
     paddding:0;
     margin:0;
     scroll-behavior: smooth;

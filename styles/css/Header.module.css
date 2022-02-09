@@ -1,8 +1,26 @@
 .header {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex: 0 0 70px;
-  background: whitesmoke;
+  background: black;
   font-family: var(--font-body);
   color: var(--color-white);
+
+  padding: 0 4rem;
+  z-index: var(--z-sky);
+}
+
+.header_logo {
+  width: 10px !important;
+}
+
+.header_actions {
+  display: flex;
+  list-style-type: none;
+  column-gap: 1.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

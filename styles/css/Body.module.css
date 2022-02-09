@@ -2,7 +2,6 @@
   width: 100vw;
   min-height: 100vh;
   display: flex;
-  background: green;
   flex-direction: column;
   font-family: var(--font-body);
 }
