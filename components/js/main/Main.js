@@ -6,7 +6,15 @@ import styles from "../../../styles/css/Main.module.css";
 function Main() {
   return (
     <section className={styles.main}>
-      <div className={styles.main_home}>home</div>
+      <div className={styles.main_home}>
+        <Image
+          alt="travel"
+          src={homeBgImg}
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
       <div className={styles.main_about}>about</div>
       <div className={styles.main_work}>work</div>
       <div className={styles.main_contact}>contact</div>

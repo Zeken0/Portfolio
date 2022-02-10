@@ -1,31 +1,26 @@
 .main {
-  width: 100%;
   flex: 1 1 auto;
   background: white;
 }
 
 .main_home {
-  width: 100%;
-  min-height: 105vh;
-  background-image: url("/components/images/hero-bg.jpg");
-  background-size: cover;
+  min-height: 97.4vh;
   background-color: #3333;
 }
 
 .main_about {
-  width: 100%;
   background-color: var(--color-white);
   min-height: 100vh;
 }
 
 .main_work {
-  width: 100%;
   background-color: var(--color-quaternary);
   min-height: 100vh;
 }
 
 .main_contact {
-  width: 100%;
-  background-color: var(--color-black);
+  background-image: url(/components/images/contact-bg.jpg);
+  background-size: cover;
   min-height: 100vh;
+  background-color: var(--color-black);
 }
