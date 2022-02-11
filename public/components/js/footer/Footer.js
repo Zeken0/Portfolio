@@ -1,6 +1,6 @@
-import styles from "../../../styles/css/Footer.module.css";
+import styles from "/_repos/portfolio/styles/css/Footer.module.css";
 import Image from "next/image";
-import logo from "/_repos/portfolio/components/images/logo.jpg";
+import logo from "/_repos/portfolio/public/components/images/logo.jpg";
 
 function Footer() {
   return (

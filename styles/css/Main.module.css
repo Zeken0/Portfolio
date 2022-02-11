@@ -4,6 +4,8 @@
 }
 
 .main_home {
+  background-image: url(/public/components/images/hero-bg.jpg);
+  background-size: cover;
   min-height: 97.4vh;
   background-color: #3333;
 }
@@ -19,7 +21,7 @@
 }
 
 .main_contact {
-  background-image: url(/components/images/contact-bg.jpg);
+  background-image: url(/components/images/contacts-bg.jpg);
   background-size: cover;
   min-height: 100vh;
   background-color: var(--color-black);

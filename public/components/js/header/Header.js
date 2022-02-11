@@ -1,7 +1,7 @@
-import styles from "../../../styles/css/Header.module.css";
+import styles from "/_repos/portfolio/styles/css/Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from "/_repos/portfolio/components/images/logo.jpg";
+import logo from "/_repos/portfolio/public/components/images/logo.jpg";
 import Image from "next/image";
 
 function Header() {

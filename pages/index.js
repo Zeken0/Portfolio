@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Body from "../components/js/body/Body";
-import Header from "../components/js/header/Header";
-import Main from "../components/js/main/Main";
-import Footer from "../components/js/footer/Footer";
+import Body from "../public/components/js/body/Body";
+import Header from "../public/components/js/header/Header";
+import Main from "../public/components/js/main/Main";
+import Footer from "../public/components/js/footer/Footer";
 
 export default function Home() {
   return (
