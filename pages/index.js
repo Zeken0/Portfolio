@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
       <Body>
         <Header></Header>
-        <Main>Main Section</Main>
-        <Footer>footer section</Footer>
+        <Main></Main>
+        <Footer></Footer>
       </Body>
     </div>
   );
